@@ -1,0 +1,17 @@
+# Ignore arquivos de configuração do ambiente virtual
+.venv/
+
+# Ignore arquivos de configuração do Python
+*.pyc
+__pycache__/
+*.pyo
+
+# Ignore arquivos de banco de dados SQLite
+*.sqlite3
+db.sqlite3
+
+# Ignore diretório de arquivos estáticos
+staticfiles/
+
+# Ignore arquivos de log
+*.log
