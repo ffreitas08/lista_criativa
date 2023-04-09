@@ -76,11 +76,14 @@ WSGI_APPLICATION = 'todoListDjango.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'nome-do-banco-de-dados',
+        'USER': 'usuario-do-banco-de-dados',
+        'PASSWORD': 'senha-do-banco-de-dados',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
