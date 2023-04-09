@@ -50,3 +50,5 @@ Crie um branch para sua nova feature (git checkout -b feature/nome-da-sua-featur
 Implemente sua feature e faça os commits (git commit -am 'Adiciona nova feature').
 Envie as alterações para o seu repositório (git push origin feature/nome-da-sua-feature).
 Crie um Pull Request para o repositório principal.
+
+testando
